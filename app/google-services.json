@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "206183575968",
+    "project_id": "elder-helper-cadb7",
+    "storage_bucket": "elder-helper-cadb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206183575968:android:75eac34ceed616e97a74c5",
+        "android_client_info": {
+          "package_name": "com.example.elderhelper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtw9flWd57H2Pc7xdNZ_KRtX1I-_5Dv4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
