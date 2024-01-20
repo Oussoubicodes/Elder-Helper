@@ -10,7 +10,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity{
     private Button signupButton;
     private Button loginButton;
-    private Button aboutButton;
     private Button guestButton;
 
     @Override
@@ -20,13 +19,12 @@ public class MainActivity extends AppCompatActivity{
 
         signupButton = (Button) findViewById(R.id.signup_button);
         loginButton = (Button) findViewById(R.id.login_button);
-        aboutButton = (Button) findViewById(R.id.about_button);
         guestButton = (Button) findViewById(R.id.guest_button);
 
         signupButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent= new Intent(MainActivity.this,Signup.class);
+                Intent intent= new Intent(MainActivity.this, Signup.class);
                 startActivity(intent);
                 finish();
             }
@@ -35,7 +33,7 @@ public class MainActivity extends AppCompatActivity{
         loginButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent= new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent= new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
